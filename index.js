@@ -37,5 +37,5 @@ fetchChat.on("child_added", function (snapshot) {
       username === messages.username ? "sent" : "receive"
     }><span>${messages.username}: </span>${messages.message}</li>`;
     // append the message on the page
-    document.getElementById("messages").innerHTML += message;
+    document.getElementById("messages").innerHTML += message;        
 });
